@@ -22,7 +22,7 @@
 3. **Entrée vide ou espaces**
 	- Saisir une chaîne vide ou uniquement des espaces.
 	- Résultat attendu :
-		- Aucune tâche n’est ajoutée.
+		- Une tâches vide est ajoutée.
 		- Pas d’erreur JavaScript dans la console.
 
 4. **Texte long**
@@ -77,7 +77,9 @@
 
 ---
 
-### 4. Suppression de tâches
+## Supression / Modification
+
+### 4.1 Suppression de tâches
 
 1. **Suppression d’une tâche spécifique**
    - Cliquer sur le bouton de suppression (icône X ou poubelle) d’une tâche.
@@ -86,12 +88,27 @@
        - Le compteur “restantes” est mis à jour correctement.
        - Elle n’apparaît plus dans aucun filtre.
 
-2. **Suppression de toutes les tâches**
+2. **Supression par modification d'une tâche spécifique**
+    - Double cliquer sur la tâche et supprimer tout son contenu.
+    - Résultats attendus :
+      - La tâche disparaît de la liste.
+      - Le compteur “restantes” est mis à jour correctement.
+      - Elle n’apparaît plus dans aucun filtre.
+
+3. **Suppression de toutes les tâches**
    - Supprimer les tâches une par une.
    - Résultats :
        - La liste devient vide.
        - Compteur à 0.
        - Les filtres n’affichent plus rien.
+
+### 4.2 Modification de tâches
+
+1. **Modification d'une tâche spécifique**
+    - Double cliquer sur la tâche et modifier son contenu en gardant au moins 1 caractère non vide.
+    - Résultats attendus :
+      - La tâche est toujours visible dans la liste.
+      - Le contenu de la tâche à été modifié.
 
 ---
 
