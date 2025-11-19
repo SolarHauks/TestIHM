@@ -11,6 +11,8 @@ dist/
 build/
 out/
 .cache/
+test-results
+playwright-report
 
 # TypeScript
 *.tsbuildinfo
