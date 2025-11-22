@@ -49,14 +49,6 @@
         - Style redevient normal.
         - Compteur “restantes” augmente de 1.
         - La tâche réapparaît en `Actifs`, disparaît de `Complétés`.
-
-3. **Compléter toutes les tâches**
-    - Cocher toutes les cases.
-    - Résultats attendus :
-        - Compteur “restantes” = 0.
-        - `Actifs` est vide.
-        - `Complétés` contient toutes les tâches.
-
 ---
 
 ### 3. Filtres de liste

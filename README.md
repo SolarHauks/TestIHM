@@ -2,8 +2,7 @@
 
 ## TODO
 - [ ] C&T (graphe avec les ampoules)
-- [ ] Plan de test
-- [ ] Scénarios
+- [ ] Prompts
 - [ ] Tests
 
 ## Lien du site
