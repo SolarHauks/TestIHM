@@ -115,32 +115,6 @@
        - La tâche réapparaît.
        - Compteur mis à jour.
 
-3. **Annuler une suppression**
-   - Supprimer une tâche existante.
-   - Cliquer sur `Annuler`.
-   - Résultat :
-       - La tâche réapparaît à la même position (si défini).
-       - Compteur restauré.
-
-4. **Annuler un changement d’état**
-   - Cocher une tâche active.
-   - Cliquer sur `Annuler`.
-   - Résultat :
-       - La tâche redevient non cochée.
-       - Compteur revient à la valeur précédente.
-
-5. **Pile d’actions**
-   - Enchaîner plusieurs actions (ajout, completion, suppression).
-   - Cliquer plusieurs fois sur `Annuler` puis sur `Refaire`.
-   - Résultats :
-       - Chaque clic `Annuler` annule l’action la plus récente.
-       - Chaque clic `Refaire` réapplique l’action précédente dans le bon ordre.
-
-6. **Limite de pile**
-   - Cliquer sur `Annuler` plus de fois qu’il n’y a d’actions.
-   - Résultat :
-       - À partir d’un certain point, plus aucun effet, pas de plantage ni d’erreur console.
-
 ### 6.2 Raccourcis clavier CTRL+Z / CTRL+Y
 
 1. **CTRL+Z équivalent à Annuler**
