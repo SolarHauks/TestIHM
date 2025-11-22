@@ -5,7 +5,7 @@ test('completer une tache', async ({page}) => {
     await init(page);
 
     // Ajouter une tache pour le test
-    await creerTache(page, "test");
+    await creerTache(page, "Text");
 
     // Compléter la tache
     await page.locator('input[name="done"]').check()

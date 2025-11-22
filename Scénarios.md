@@ -69,32 +69,26 @@
 
 ---
 
-## Supression / Modification
-
-### 4.1 Suppression de tâches
+## 4. Suppression
 
 1. **Suppression d’une tâche spécifique**
-   - Cliquer sur le bouton de suppression (icône X ou poubelle) d’une tâche.
+   - Cliquer sur le bouton de suppression (icône ×) d’une tâche.
    - Résultats attendus :
        - La tâche disparaît de la liste.
        - Le compteur “restantes” est mis à jour correctement.
-       - Elle n’apparaît plus dans aucun filtre.
 
-2. **Supression par modification d'une tâche spécifique**
-    - Double cliquer sur la tâche et supprimer tout son contenu.
-    - Résultats attendus :
-      - La tâche disparaît de la liste.
-      - Le compteur “restantes” est mis à jour correctement.
-      - Elle n’apparaît plus dans aucun filtre.
-
-3. **Suppression de toutes les tâches**
-   - Supprimer les tâches une par une.
+2. **Suppression des taches cochées**
+   - Cliquer sur le bouton de suppression des taches cochées
    - Résultats :
-       - La liste devient vide.
-       - Compteur à 0.
-       - Les filtres n’affichent plus rien.
+       - Les options de filtrages disparaissent
 
-### 4.2 Modification de tâches
+3. **Suppression d'une tache dans la partie 2**
+   - Cliquer sur le bouton de suppression (icône X) d’une tâche dans la partie 2.
+   - Résultats attendus :
+       - La tâche disparaît de la liste.
+       - Le compteur “restantes” est mis à jour correctement.
+
+### 5. Modification de tâches
 
 1. **Modification d'une tâche spécifique**
     - Double cliquer sur la tâche et modifier son contenu en gardant au moins 1 caractère non vide.
@@ -104,9 +98,9 @@
 
 ---
 
-## 5. Scénarios de test – Étape Annuler / Refaire
+## 6. Scénarios de test – Étape Annuler / Refaire
 
-### 5.1 Boutons Annuler / Refaire
+### 6.1 Boutons Annuler / Refaire
 
 1. **Annuler un ajout**
    - Ajouter une tâche.
@@ -147,7 +141,7 @@
    - Résultat :
        - À partir d’un certain point, plus aucun effet, pas de plantage ni d’erreur console.
 
-### 5.2 Raccourcis clavier CTRL+Z / CTRL+Y
+### 6.2 Raccourcis clavier CTRL+Z / CTRL+Y
 
 1. **CTRL+Z équivalent à Annuler**
    - Effectuer une action (ex : ajout).
@@ -168,7 +162,7 @@
 
 ---
 
-## 6. Cohérence entre la liste graphique et la JSON
+## 7. Cohérence entre la liste graphique et la JSON
 
 1. **Ajout dans “Liste Miage” (Étape 2)**
    - Saisir un item dans le champ “Ajouter”.
@@ -190,7 +184,7 @@
 
 ---
 
-## 7. Tests techniques / non fonctionnels
+## 8. Tests techniques / non fonctionnels
 
 1. **Réactualisation de la page**
    - Créer quelques tâches.
