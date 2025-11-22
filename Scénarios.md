@@ -128,12 +128,6 @@
    - Résultat :
        - Même comportement que bouton `Refaire`.
 
-3. **Raccourcis sans focus spécial**
-   - Cliquer en dehors des champs de texte, puis tester `CTRL+Z` / `CTRL+Y`.
-   - Vérifier :
-       - Les raccourcis fonctionnent toujours / ou comportement conforme aux spécifications du prof.
-       - Pas d’interférence avec comportement par défaut du navigateur (si bloqué, c’est géré proprement).
-
 ---
 
 ## 7. Cohérence entre la liste graphique et la JSON
