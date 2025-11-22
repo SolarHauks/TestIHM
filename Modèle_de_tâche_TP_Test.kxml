@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.3">
+    <project classkmad="project.Project" idkmad="K1"/>
+    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K10 K13 " idkmad="K4">
+        <task-name>Gérer sa liste de chose à faire</task-name>
+        <task-numero>Racine   </task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>1458</point-x>
+            <point-y>26</point-y>
+        </point>
+        <task classkmad="tache.Task" id-task-point="K6" id-task-subtasks-list="K19 K22 K37 K67 K85 " idkmad="K7">
+            <task-name>Gérer les tâches de la liste principale</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>SEQ</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>1943</point-x>
+                <point-y>158</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K18" id-task-subtasks-list="K31 K115 K34 " idkmad="K19">
+                <task-name>Ajout d'une tâche</task-name>
+                <task-numero>1.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K18">
+                    <point-x>254</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K30" idkmad="K31">
+                    <task-name>Saisir le texte de la tâche</task-name>
+                    <task-numero>1.1.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K30">
+                        <point-x>0</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K114" idkmad="K115">
+                    <task-name>Valider l'ajout</task-name>
+                    <task-numero>1.1.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K114">
+                        <point-x>228</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K33" idkmad="K34">
+                    <task-name>Afficher la nouvelle tâche et mettre à jour le compteur</task-name>
+                    <task-numero>1.1.3</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K33">
+                        <point-x>379</point-x>
+                        <point-y>506</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K21" id-task-subtasks-list="K25 K28 K156 " idkmad="K22">
+                <task-name>Modification d'une tâche</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Au moins uen tâche doit exister
+</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K21">
+                    <point-x>831</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K24" idkmad="K25">
+                    <task-name>Modification du texte de la tâche</task-name>
+                    <task-numero>1.2.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K24">
+                        <point-x>705</point-x>
+                        <point-y>500</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K27" idkmad="K28">
+                    <task-name>Valider la modification</task-name>
+                    <task-numero>1.2.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K27">
+                        <point-x>984</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K155" idkmad="K156">
+                    <task-name>La tâche est modifié</task-name>
+                    <task-numero>1.2.3</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K155">
+                        <point-x>1194</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K36" id-task-subtasks-list="K40 K43 K59 " idkmad="K37">
+                <task-name>Supprimer une tâche</task-name>
+                <task-numero>1.3</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>ALT</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Au moins une tâche doit exister
+</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K36">
+                    <point-x>1670</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K39" id-task-subtasks-list="K46 K49 " idkmad="K40">
+                    <task-name>Supression par clic</task-name>
+                    <task-numero>1.3.1</task-numero>
+                    <task-observation/>
+                    <task-executant>ABS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K39">
+                        <point-x>1375</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                    <task classkmad="tache.Task" id-task-point="K45" idkmad="K46">
+                        <task-name>Clic sur la croix de la tâche</task-name>
+                        <task-numero>1.3.1.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K45">
+                            <point-x>942</point-x>
+                            <point-y>647</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K48" idkmad="K49">
+                        <task-name>La tâche est supprimer</task-name>
+                        <task-numero>1.3.1.2</task-numero>
+                        <task-observation/>
+                        <task-executant>SYS</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K48">
+                            <point-x>1172</point-x>
+                            <point-y>652</point-y>
+                        </point>
+                    </task>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K42" id-task-subtasks-list="K55 K52 K57 " idkmad="K43">
+                    <task-name>Suppression par modification</task-name>
+                    <task-numero>1.3.2</task-numero>
+                    <task-observation/>
+                    <task-executant>ABS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K42">
+                        <point-x>1639</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                    <task classkmad="tache.Task" id-task-point="K54" idkmad="K55">
+                        <task-name>Double clic sur une tâche</task-name>
+                        <task-numero>1.3.2.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K54">
+                            <point-x>1377</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K51" idkmad="K52">
+                        <task-name>Tout le contenu de la tâche est supprimer</task-name>
+                        <task-numero>1.3.2.2</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K51">
+                            <point-x>1598</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K56" idkmad="K57">
+                        <task-name>La tâche est supprimer</task-name>
+                        <task-numero>1.3.2.3</task-numero>
+                        <task-observation/>
+                        <task-executant>SYS</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K56">
+                            <point-x>1961</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K58" id-task-subtasks-list="K64 K62 " idkmad="K59">
+                    <task-name>Supression par filtre</task-name>
+                    <task-numero>1.3.3</task-numero>
+                    <task-observation/>
+                    <task-executant>ABS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-descriptionprecondition>Doit avoir au moins 1 tâche complété
+</task-descriptionprecondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K58">
+                        <point-x>2285</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                    <task classkmad="tache.Task" id-task-point="K63" idkmad="K64">
+                        <task-name>Clic sur "Supprimer cochées"</task-name>
+                        <task-numero>1.3.3.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K63">
+                            <point-x>2142</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K61" idkmad="K62">
+                        <task-name>La/les tâche est supprimer</task-name>
+                        <task-numero>1.3.3.2</task-numero>
+                        <task-observation/>
+                        <task-executant>SYS</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K61">
+                            <point-x>2388</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K66" id-task-subtasks-list="K70 K73 K76 " idkmad="K67">
+                <task-name>Changer de filtre</task-name>
+                <task-numero>1.4</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>ENT</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K66">
+                    <point-x>2636</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K69" idkmad="K70">
+                    <task-name>Clic sur "Tous"</task-name>
+                    <task-numero>1.4.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K69">
+                        <point-x>2547</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K72" idkmad="K73">
+                    <task-name>Clic sur "Actifs"</task-name>
+                    <task-numero>1.4.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K72">
+                        <point-x>2712</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K75" idkmad="K76">
+                    <task-name>Clic sur "Complétés"</task-name>
+                    <task-numero>1.4.3</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K75">
+                        <point-x>2862</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K84" id-task-subtasks-list="K88 K91 " idkmad="K85">
+                <task-name>Changer l'état d'une tâche</task-name>
+                <task-numero>1.5</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K84">
+                    <point-x>3137</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K87" idkmad="K88">
+                    <task-name>Coché la case de la tâche</task-name>
+                    <task-numero>1.5.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K87">
+                        <point-x>3020</point-x>
+                        <point-y>483</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K90" idkmad="K91">
+                    <task-name>La tâche devient complété</task-name>
+                    <task-numero>1.5.2</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K90">
+                        <point-x>3263</point-x>
+                        <point-y>483</point-y>
+                    </point>
+                </task>
+            </task>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K9" id-task-subtasks-list="K79 K82 " idkmad="K10">
+            <task-name>Gérer l'historique des actions</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>true</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ENT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-descriptionprecondition>IL doit avoir eu au moins une actions avant</task-descriptionprecondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>@</task-descriptioniteration>
+            <point classkmad="tache.Point" idkmad="K9">
+                <point-x>3519</point-x>
+                <point-y>158</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K78" idkmad="K79">
+                <task-name>Annuler la dernière action</task-name>
+                <task-numero>2.1</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>N'importe qu'elle actions à du être effectuer avant
+</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K78">
+                    <point-x>3416</point-x>
+                    <point-y>344</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K81" idkmad="K82">
+                <task-name>Refaire la dernière actions annulée</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>IL faut avoir au moins annuler une actions avant</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K81">
+                    <point-x>3712</point-x>
+                    <point-y>344</point-y>
+                </point>
+            </task>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K12" id-task-subtasks-list="K100 K127 K118 K94 K150 " idkmad="K13">
+            <task-name>Gérer les autes listes / cohérences</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>SEQ</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K12">
+                <point-x>4945</point-x>
+                <point-y>158</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K99" id-task-subtasks-list="K103 K109 K112 " idkmad="K100">
+                <task-name>Ajouter une tâche dans "Liste Miage"</task-name>
+                <task-numero>3.1</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K99">
+                    <point-x>3998</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K102" idkmad="K103">
+                    <task-name>Saisir le texte de la tâche</task-name>
+                    <task-numero>3.1.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K102">
+                        <point-x>3765</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K108" idkmad="K109">
+                    <task-name>Valider l'ajout</task-name>
+                    <task-numero>3.1.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K108">
+                        <point-x>3978</point-x>
+                        <point-y>500</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K111" idkmad="K112">
+                    <task-name>Afficher la nouvelle tâche et mettre à jour le compteur</task-name>
+                    <task-numero>3.1.3</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K111">
+                        <point-x>4160</point-x>
+                        <point-y>506</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K126" id-task-subtasks-list="K130 K133 " idkmad="K127">
+                <task-name>Supprimer une tâche</task-name>
+                <task-numero>3.2</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>ALT</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Une tâche doit au moins exister
+</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K126">
+                    <point-x>4751</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K129" id-task-subtasks-list="K136 K139 " idkmad="K130">
+                    <task-name>Supprimer par clic</task-name>
+                    <task-numero>3.2.1</task-numero>
+                    <task-observation/>
+                    <task-executant>ABS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K129">
+                        <point-x>4560</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                    <task classkmad="tache.Task" id-task-point="K135" idkmad="K136">
+                        <task-name>Clic sur la croix de la tâche</task-name>
+                        <task-numero>3.2.1.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K135">
+                            <point-x>4389</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K138" idkmad="K139">
+                        <task-name>La tâche est supprimer</task-name>
+                        <task-numero>3.2.1.2</task-numero>
+                        <task-observation/>
+                        <task-executant>SYS</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K138">
+                            <point-x>4643</point-x>
+                            <point-y>639</point-y>
+                        </point>
+                    </task>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K132" id-task-subtasks-list="K142 K145 K148 " idkmad="K133">
+                    <task-name>Supprimer par modification</task-name>
+                    <task-numero>3.2.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K132">
+                        <point-x>4949</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                    <task classkmad="tache.Task" id-task-point="K141" idkmad="K142">
+                        <task-name>Clic sur le contenu de la tâche</task-name>
+                        <task-numero>3.2.2.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K141">
+                            <point-x>4854</point-x>
+                            <point-y>652</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K144" idkmad="K145">
+                        <task-name>Modification du contenu à vide</task-name>
+                        <task-numero>3.2.2.2</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K144">
+                            <point-x>5104</point-x>
+                            <point-y>647</point-y>
+                        </point>
+                    </task>
+                    <task classkmad="tache.Task" id-task-point="K147" idkmad="K148">
+                        <task-name>La tâche est supprimer</task-name>
+                        <task-numero>3.2.2.3</task-numero>
+                        <task-observation/>
+                        <task-executant>SYS</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K147">
+                            <point-x>5371</point-x>
+                            <point-y>647</point-y>
+                        </point>
+                    </task>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K117" id-task-subtasks-list="K121 K124 " idkmad="K118">
+                <task-name>Modifier l'état d'une tâche</task-name>
+                <task-numero>3.3</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K117">
+                    <point-x>5349</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K120" idkmad="K121">
+                    <task-name>Cocher la case de la tâche</task-name>
+                    <task-numero>3.3.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K120">
+                        <point-x>5219</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K123" idkmad="K124">
+                    <task-name>décocher la case de la tâche</task-name>
+                    <task-numero>3.3.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-descriptionprecondition>La case doit être cocher
+</task-descriptionprecondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K123">
+                        <point-x>5430</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K93" id-task-subtasks-list="K96 K98 " idkmad="K94">
+                <task-name>Changer l'état d'une tâche</task-name>
+                <task-numero>3.4</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K93">
+                    <point-x>5791</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K95" idkmad="K96">
+                    <task-name>Coché la case de la tâche</task-name>
+                    <task-numero>3.4.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K95">
+                        <point-x>5650</point-x>
+                        <point-y>500</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K97" idkmad="K98">
+                    <task-name>La tâche devient complété</task-name>
+                    <task-numero>3.4.2</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K97">
+                        <point-x>5886</point-x>
+                        <point-y>501</point-y>
+                    </point>
+                </task>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K149" id-task-subtasks-list="K159 K162 K165 " idkmad="K150">
+                <task-name>Modifier une tâche</task-name>
+                <task-numero>3.5</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>true</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K149">
+                    <point-x>6254</point-x>
+                    <point-y>344</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K158" idkmad="K159">
+                    <task-name>Modification du texte de la tâche</task-name>
+                    <task-numero>3.5.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K158">
+                        <point-x>6100</point-x>
+                        <point-y>495</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K161" idkmad="K162">
+                    <task-name>Valider la modification</task-name>
+                    <task-numero>3.5.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K161">
+                        <point-x>6349</point-x>
+                        <point-y>500</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K164" idkmad="K165">
+                    <task-name>La tâche est modifié</task-name>
+                    <task-numero>3.5.3</task-numero>
+                    <task-observation/>
+                    <task-executant>SYS</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K164">
+                        <point-x>6533</point-x>
+                        <point-y>506</point-y>
+                    </point>
+                </task>
+            </task>
+        </task>
+    </task>
+</kmad-model>
