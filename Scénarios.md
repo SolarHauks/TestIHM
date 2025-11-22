@@ -94,7 +94,7 @@
     - Double cliquer sur la tâche et modifier son contenu en gardant au moins 1 caractère non vide.
     - Résultats attendus :
       - La tâche est toujours visible dans la liste.
-      - Le contenu de la tâche à été modifié.
+      - Le contenu de la tâche a été modifié.
 
 ---
 
