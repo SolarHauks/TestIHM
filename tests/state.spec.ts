@@ -1,26 +1,23 @@
 import {test, expect} from '@playwright/test';
+import {checkNombreTache, creerTache, init} from "./utils";
 
 test('completer une tache', async ({page}) => {
-    await page.goto('');
+    await init(page);
 
     // Ajouter une tache pour le test
-    const todoInput = page.getByRole('textbox', { name: 'Que faire?' });
-    await todoInput.fill('Test');
-    await todoInput.press('Enter');
+    await creerTache(page, "test");
 
     // Compléter la tache
     await page.locator('input[name="done"]').check()
 
-    await expect(page.getByText(/0\s+restantes?/i)).toBeVisible();
+    await checkNombreTache(page, 0);
 });
 
 test('repasser une tache en actif', async ({page}) => {
-    await page.goto('');
+    await init(page);
 
     // Ajouter une tache pour le test
-    const todoInput = page.getByRole('textbox', { name: 'Que faire?' });
-    await todoInput.fill('Test');
-    await todoInput.press('Enter');
+    await creerTache(page, "test");
 
     // Compléter la tache
     const check = page.locator('input[name="done"]')
@@ -29,5 +26,6 @@ test('repasser une tache en actif', async ({page}) => {
     // Repasser la tache en actif
     await check.uncheck();
 
-    await expect(page.getByText(/1\s+restantes?/i)).toBeVisible();
+    await checkNombreTache(page, 1);
+
 });
