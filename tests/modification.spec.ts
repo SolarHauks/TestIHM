@@ -1,5 +1,5 @@
-import {expect, test} from "@playwright/test";
-import {checkNombreTache, creerTache, init} from "./utils";
+import {expect, Page, test} from "@playwright/test";
+import {checkNombreTache, creerTache, init, modifierTache} from "./utils";
 
 test('Modifier une tache', async ({page}) => {
     await init(page);
@@ -8,10 +8,7 @@ test('Modifier une tache', async ({page}) => {
     await creerTache(page, "Text");
 
     // Modifier la tache
-    await page.getByText('Text', { exact: true }).dblclick();
-    const editInput = page.locator('input.edit');
-    await editInput.fill('Nouveau texte');
-    await editInput.press('Enter');
+    await modifierTache(page, "Text", "New Text");
 
-    await expect(page.getByText('Nouveau texte', { exact: true })).toBeVisible();
+    await expect(page.getByText('New Text', { exact: true })).toBeVisible();
 });
